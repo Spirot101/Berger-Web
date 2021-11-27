@@ -196,6 +196,8 @@ footer {
 	font-size: 12px;
 }
 
+/* Media Queries */
+/* Ipad */
 @media (max-width: 768px) {
 	.right {
 		height: 230px;
@@ -211,6 +213,7 @@ footer {
 		display: none;
 	}
 }
+/* Mobile */
 @media (max-width: 480px) {
 	.header {
 		display: flex;
