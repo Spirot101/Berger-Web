@@ -29,23 +29,6 @@ fetch("./images.json")
                 `;
         // return `<img src=${image.url}/>`; 
 
-        // Getting the table element
-        var cards = document.getElementsByClassName("card");
-
-        // Looping over tables
-        for (var i = 0; i < cards.length; i++) {
-
-            // Get the ith table
-            var card = cards[i];
-
-            // Set the id dynamically
-            card.setAttribute("id", i + 1);
-
-            // The line below will also give id
-            // dynamically to the tables
-            //table.id = i+1;
-        }
-
     }); // .join('') tar du bort separatorn mellan elementen, mellan objekten, om man hade haft .map istället för forEach
     
     
@@ -54,12 +37,16 @@ fetch("./images.json")
     lightbox.id = 'lightbox';
     document.body.appendChild(lightbox);
 
+    
+    
+    
+    
     const images = document.querySelectorAll('img');
     images.forEach(image => {
         image.addEventListener('click', e => {
-            lightbox.classList.add('active');
+            lightbox.classList.add('active');           
             const img = document.createElement('img');
-            img.src = image.src;
+            img.src = image.src;    
             while (lightbox.firstChild) {
                 lightbox.removeChild(lightbox.firstChild);
             }
@@ -71,5 +58,9 @@ fetch("./images.json")
         if (e.target !== e.currentTarget) return;
         lightbox.classList.remove('active');
     });
+
+    // imageData.forEach((image) => {
+
+    // });
     
 });
