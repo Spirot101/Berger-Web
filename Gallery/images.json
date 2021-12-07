@@ -1,40 +1,40 @@
 [
-    {
+{
         "id": 1,
         "title": "Harmony",
         "url": "https://picsum.photos/id/375/600/800",
         "description": "Wellington Sanipe",
         "alt": "Harmony - Wellington Sanipe"
 },
-    {
+{
         "id": 2,
         "title": "Forest",
         "url": "https://picsum.photos/id/502/600/800",
         "description": "Sven Schlager",
         "alt": "Forest - Sven Schlager"
 },
-    {
+{
         "id": 3,
         "title": "Fjord",
         "url": "https://picsum.photos/id/511/600/800",
         "description": "Jeff Sheldon",
         "alt": "Fjord - Jeff Sheldon"
 },
-    {
+{
         "id": 4,
         "title": "Open Road",
         "url": "https://picsum.photos/id/563/600/800",
         "description": "Bec Brown",
         "alt": "Open Road - Bec Brown"
 },
-    {
+{
         "id": 5,
         "title": "Dog",
         "url": "https://picsum.photos/id/659/600/800",
         "description": "Alexander Dimitrov",
         "alt": "Dog - Alexander Dimitrov"
 },
-    {
+{
         "id": 6,
         "title": "Cloud's",
         "url": "https://picsum.photos/id/741/600/800",
