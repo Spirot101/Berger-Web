@@ -24,7 +24,7 @@
   
       <div class="main-site">
         <ul>
-          <li><a class="main-list" href="../index.php">Home</a></li>
+          <li><a class="main-list" href="../index.html">Home</a></li>
     
           <li><a class="main-list" href="../blog/blog.php">Blog</a></li>
     
