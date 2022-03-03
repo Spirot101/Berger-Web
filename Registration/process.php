@@ -13,9 +13,9 @@ if(isset($_POST)) {
   $stmtinsert = $db->prepare($sql);
   $result = $stmtinsert->execute([$fullname, $email, $password]);
   if ($result) {
-    echo 'Great success!';
+    echo 'Registration successfully!';
   } else {
-    echo 'Warning warning! intruders alert, intruders alert';
+    echo 'Registration failed';
   }
 
 } else {
