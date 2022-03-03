@@ -3,8 +3,8 @@
   scroll-behavior: smooth;
 }
 body {
-	background-color: snow;
-  margin: 0;	
+	background-color: rgb(116, 164, 196);
+	margin: 0;	
 }
 p {
 	font-size: 18px;
@@ -13,133 +13,14 @@ a {
 	text-decoration: none;
 	transition: 0.3s;
 }
-img {
-	cursor: pointer;
-}
 
-/* Header */
-.header {
-	background-color: rgb(63, 147, 202);
-	padding: 1px;
-	box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
-  transition: all 0.13s ease-in;
+/* Main */
+.container {
+	background-color: snow;
+	
 }
-.head-list {
-	font-size: 12px;
-	color: black;
-}
-.head-list:hover {
-	color: white;
-}
-.header ul {
-	text-align: left; 
-}
-.header li {
-	display: inline;
-	margin: 50px;
-}
-
-/* Footer */
-footer {
-	background-color: rgb(63, 147, 202);
-	font-size: 18px;
+.row {
+	justify-content: center;
 	position: relative;
-  top: 50px;
-}
-.main-footer {
-	display: flex;
-}
-.main-footer, .box {
-	flex-basis: 50%;
-	padding: 10px 20px;
-} 
-.box h2 {
-	font-size: 1.125rem;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-.content, .social {
-	margin: 20px 0 0 0;
-}
-.left .content p {
-	text-align: justify;
-}
-.left .content .social a {
-	padding: 0 2px;
-}
-.left .content .social a span {
-	height: 40px;
-	width: 40px;
-	background: #1a1a1a;
-	line-height: 40px;
-	text-align: center;
-	font-size: 18px;
-	border-radius: 5px;
-	transition: 0.3s;
-}
-.left .content .social a span:hover {
-	background: #f12020;
-}
-.icon {
-	color: white;
-}
-.btn {
-	margin: 10px 0 0 0;
-}
-.login {
-	border: 2px solid white;
-	border-radius: 8px;
-	font: inherit;
-	font-weight: bold;
-	cursor: pointer;
-}
-.right {
-	color: white;
-	background-color: black;
-	height: 200px;
-	border-radius: 24px;
-	margin: auto;
-	text-align: center;
-}
-.copyright {
-	margin-top: 170px;
-}
-.copy {
-	font-size: 12px;
-}
 
-/* Media Queries */
-/* Ipad */
-@media (max-width: 768px) {
-  .right {
-		height: 230px;
-	}
-  .copyright {
-		display: none;
-	}
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-	.header {
-		display: flex;
-		flex-direction: column;
-	}
-	.main-footer {
-		display: flex;
-		flex-direction: column;
-	}
-	.head-list {
-		display: flex;
-	}
-  div.gallery img {
-    max-width: 350px;
-  }
-
-	.right {
-		height: 250px;
-	}
-	.copyright {
-		display: none;
-	}
 }
