@@ -1,5 +1,3 @@
-<?php include('../Templates/header.php'); ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +12,23 @@
 
 <body>
 <div class="container">
+	
+	<header>
+
+	<?php include('../Templates/header.php'); ?>
+
+    <div class="main-site">
+      <ul>
+        <li><a class="main-list" href="../index.html">Home</a></li>
+
+				<li><a class="main-list" href="../Blog/blog.php">Blog</a></li>
+  
+        <li><a class="main-list" href="#">Forum</a></li>
+
+				<li><a class="main-list" href="../gallery/gallery.php">Gallery</a></li>
+      </ul>
+    </div>
+  </header>
 	
 	<main>
 		<div class="contact">
