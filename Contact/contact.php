@@ -37,7 +37,7 @@
 			
 			<form class="form" action="#">
 				<div class="label">
-					<label>Name*</label>
+					<label>Name*</label> <br>
 					<input type="text" name="name" placeholder="Enter Name" autofocus required>
 				</div>
 
@@ -47,7 +47,7 @@
 				</div>
 
 				<div class="label">
-					<label>Email*</label>
+					<label>Email*</label> 
 					<input type="email" name="email" placeholder="Enter Email" required>
 				</div>
 

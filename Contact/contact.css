@@ -1,8 +1,11 @@
+:root {
+	--main-background-color: #292b2c;
+	--main-border: solid 3px black;
+}
 * {
 	font-family: Arial, Helvetica, sans-serif;
 }
 body {
-	background-color: rgb(116, 164, 196);
 	margin: 0;
 }
 p {
@@ -14,14 +17,14 @@ a {
 }
 
 .header {
-	background-color: rgb(63, 147, 202);
+	background-color: var(--main-background-color);
 	padding: 1px;
 	box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
   transition: all 0.13s ease-in;
 }
 .head-list {
 	font-size: 12px;
-	color: black;
+	color: white;
 }
 .head-list:hover {
 	color: white;
@@ -35,14 +38,14 @@ a {
 }
 
 .main-site {
-	background-color: rgb(116, 164, 196);
+	background-color: var(--main-background-color);
 	text-align: center;
 	padding: 1px;
 	box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
   transition: all 0.13s ease-in;
 }
 .main-list {
-	color: black;
+	color: white;
 }
 .main-list:hover {
 	color: white;
@@ -58,7 +61,8 @@ a {
 .contact {
 	width: 30%;
 	margin: auto; 
-	background-color: snow;
+	background-color: #f7f7f7;
+	border: var(--main-border);
   position: relative;
   top: 20px;
 	padding-bottom: 50px;
@@ -110,7 +114,7 @@ a {
 }
 
 footer {
-	background-color: rgb(63, 147, 202);
+	background-color: #5bc0de;
 	font-size: 18px;
   position: relative;
   top: 50px;
@@ -121,7 +125,10 @@ footer {
 .main-footer, .box {
 	flex-basis: 50%;
 	padding: 10px 20px;
-} 
+}
+.footer-text {
+	color: white;
+}
 .box h2 {
 	font-size: 1.125rem;
 	font-weight: 600;
@@ -172,6 +179,7 @@ footer {
 }
 .copyright {
 	margin-top: 170px;
+	color: white;
 }
 .copy {
 	font-size: 12px;

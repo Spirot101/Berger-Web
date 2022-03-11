@@ -64,7 +64,8 @@ include('includes/navbar.php');
                   <?php if($postItems['image'] != null) : ?>
                     <!-- ändra bild storlek med classen -->
                     <img src="uploads/posts/<?= $postItems['image'] ?>" class="w-25" alt="<?=$postItems['name'];?>" />
-                  <?php endif; ?>                   
+                  <?php endif; ?>    
+                  <hr>
                   <div>
                     <?=$postItems['description'];?>
                   </div>
