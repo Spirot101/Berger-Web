@@ -2,7 +2,7 @@
 
 $host = "localhost";
 $username = "erik";
-$password = "rootenspirot91b";
+$password = "1234";
 $database = "bergerweb";
 
 $con = mysqli_connect("$host", "$username", "$password", "$database");
@@ -14,7 +14,7 @@ if (!$con) {
 
 // PDO
 // $db_user = "erik";
-// $db_pass = "rootenspirot91b";
+// $db_pass = "1234";
 // $db_name = "bergerweb";
 
 // $db = new PDO('mysql:host=localhost;dbname='. $db_name. ';charset=utf8', $db_user, $db_pass);
