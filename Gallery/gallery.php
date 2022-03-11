@@ -21,7 +21,7 @@
         <ul>
           <li><a class="main-list" href="../index.html">Home</a></li>
     
-          <li><a class="main-list" href="../blog/blog.php">Blog</a></li>
+          <li><a class="main-list" href="../php-blog/index.php">Blog</a></li>
     
           <li><a class="main-list" href="#">Forum</a></li>
     
