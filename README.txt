@@ -1,6 +1,7 @@
 1. Fixa login system
+1. Login - fixa så man kan logga in från överallt
 
-2. Header - underskrift som hover:
+2. Header - understrukning som hover:
 
 3. register account, inte create account
 
@@ -15,3 +16,9 @@
 8. Gallery - lite kärlek till popupen
 
 9. Contact - gör så man  kan skicka email med hjälp av php - https://www.youtube.com/watch?v=4q0gYjAVonI&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-&index=59&ab_channel=DaniKrossing
+
+10. Ändra lösenordet i min user erik på phpmMyAdmin
+
+11. registration - fixa registration så den har 5 tabeller istället - https://www.youtube.com/watch?v=3FSNgLDjors&ab_channel=ProgrammingKnowledge
+
+12. blog - make super admin - https://www.youtube.com/watch?v=mAutSTx3s4M&list=PLRheCL1cXHrvKqYXmyArH55g5VkPhpzzP&index=28
