@@ -37,39 +37,32 @@
 				<p class="info">Feel free to contact us and send in your tips and thoughts on how to continue making this website better for all people across the world.</p>
 			
 			<form class="form" action="contactform.php" method="POST">
+				
 				<div class="label">
-					<label>First Name*</label> <br>
+					<label>Name *</label> <br>
 					<input type="text" name="name" placeholder="Enter Name" autofocus required>
-				</div>
+				</div>	
 
 				<div class="label">
-					<label>Surname*</label>
-					<input type="text" name="surname" placeholder="Enter Surname" required>
-				</div>
-
-				<div class="label">
-					<label>Email*</label> 
+					<label>Email *</label>  <br>
 					<input type="email" name="email" placeholder="Enter Email" required>
 				</div>
 
 				<div class="label">
-					<label>Gender</label>
-					<select name="gender">
-						<option value="male">Male</option>
-						<option value="female">Female</option>
-						<option value="other">Other</option>
-					</select>
+					<label>Subject *</label> <br>
+					<input type="text" name="subject" placeholder="Enter Subject" required>
 				</div>
-				
-				<div class="label">
-					<label>Comments</label>
-					<textarea class="textarea" name="textarea" placeholder="Enter your comments..." cols="25" rows="2"></textarea>
-				</div>
-				
-				<div class="label">
-					<button type="submit" name="submit" value="Submit">Submit</button>
 
-					<button class="clear" type="reset" name="clear" value="clear">Clear</button>
+				<div class="label">
+					<label>Message</label> <br>
+					<textarea class="textarea" name="message" placeholder="Message..." cols="25" rows="2"></textarea>
+				</div>
+				
+				<div class="label">
+					<button type="submit" name="contact">Contact</button>
+
+					<button class="clear" type="reset">Clear</button>
+
 				</div>
 			</form>
 		</div>
