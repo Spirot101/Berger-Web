@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Service</title>
+	<title>Contact Form</title>
 	<link rel="stylesheet" type="text/css" href="contact.css">
 	<link rel="stylesheet" type="text/css" href="../assets/style.css">
 	<script src="https://use.fontawesome.com/26560a88c7.js"></script>
@@ -36,9 +36,9 @@
 				<h1>Contact</h1>
 				<p class="info">Feel free to contact us and send in your tips and thoughts on how to continue making this website better for all people across the world.</p>
 			
-			<form class="form" action="#">
+			<form class="form" action="contactform.php" method="POST">
 				<div class="label">
-					<label>Name*</label> <br>
+					<label>First Name*</label> <br>
 					<input type="text" name="name" placeholder="Enter Name" autofocus required>
 				</div>
 

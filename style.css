@@ -40,29 +40,6 @@
 	font-size: 12px;
 } */
 
-.main-site {
-	background-color: var(--main-background-color);
-	text-align: center;
-	padding: 1px;
-	box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
-  transition: all 0.13s ease-in;
-}
-.main-list {
-	color: white;
-}
-.main-list:hover {
-	color: white;
-	font-size: 30px;
-	text-decoration: underline;
-	text-decoration-color: white;
-}
-.main-site li {
-	font-size: 25px;
-	display: inline;
-	margin: 50px;
-	font-weight: bold;
-}
-
 /* .sidebar {
 	background-color: var(--main-background-color);
 	float: right;
@@ -71,6 +48,7 @@
 	margin-top: 100px;
 	border: var(--main-border)
 } */
+
 .welcome {
 	width: 50%;
 	margin: auto;
