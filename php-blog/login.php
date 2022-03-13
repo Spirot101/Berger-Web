@@ -34,7 +34,7 @@ include('includes/navbar.php');
 
           <form action="logincode.php" method="POST">
               <div class="form-group mb-3">
-                <label>Email Id</label>
+                <label>Email</label>
                 <input type="email" name="email" required placeholder="Enter Email Adress" class="form-control">
               </div>
               <div class="form-group mb-3">

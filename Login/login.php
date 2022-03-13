@@ -1,3 +1,16 @@
+<?php
+include('../php-blog/includes/config.php');
+
+if (isset($_SESSION['auth']))
+{
+  if (!$_SESSION['message']) {
+    $_SESSION['message'] = "You are already logged in";
+  }
+  header("Location: index.php");
+  exit(0);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,9 +39,12 @@
 	</div>
 
   <div class="login-box">
+
+  <?php include('message.php'); ?>
+  
     <h1>Login</h1>
 
-    <form action="#" method="POST">
+    <form action="../php-blog/logincode.php" method="POST">
 
     <div class="textbox">
       <i class="material-icons">
@@ -42,7 +58,7 @@
       <input type="password" name="password" placeholder="Password" required>
     </div>
 
-    <button class="btn" type="submit" name="login_btn">Sign in</button>
+    <button class="btn" type="submit" name="login_btn">Login Now</button>
 
   </form>
   <a class="create link" href="../Registration/registration.php">Create account</a>
