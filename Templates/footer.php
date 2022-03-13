@@ -1,3 +1,16 @@
+<?php
+include('../php-blog/includes/config.php');
+
+if (isset($_SESSION['auth']))
+{
+  if (!$_SESSION['message']) {
+    $_SESSION['message'] = "You are already logged in";
+  }
+  header("Location: index.php");
+  exit(0);
+}
+?>
+
 <footer>
     <div class="main-footer">
       <div class="left box">
@@ -39,21 +52,24 @@
       </div>
   
       <div class="right box">
+      <?php include('message.php'); ?>
         <h2><i class="material-icons">account_circle</i> Login to your account</h2>
         <div class="content">
-          <form action="#">
+          <form action="../php-blog/logincode.php" method="POST">
+
             <div class="email">						
                <div class="text"><i class="material-icons">person</i> Email *</div>
-               <input type="email" required>
+               <input type="email" name="email" required>
             </div>
+
             <div class="msg">
               <div class="text"><i class="material-icons">
                   lock</i> Password *</div>
-               <input type="password" required>
+               <input type="password" name="password" required>
              </div>
                         
             <div class="btn">
-              <button class="login" type="submit" name="submit" value="Submit">Login</button>
+              <button class="login" type="submit" name="login_btn">Login</button>
             </div>						
           </form>
         </div>
