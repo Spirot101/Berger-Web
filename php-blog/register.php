@@ -40,7 +40,7 @@ include('includes/navbar.php');
                 <input required type="text" name="lname" placeholder="Enter Last Name" class="form-control">
               </div>
               <div class="form-group mb-3">
-                <label>Email Id</label>
+                <label>Email</label>
                 <input required type="email" name="email" placeholder="Enter Email Adress" class="form-control">
               </div>
               <div class="form-group mb-3">

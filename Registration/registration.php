@@ -1,5 +1,12 @@
 <?php
-require_once('config.php');
+include('../php-blog/includes/config.php');
+
+if (isset($_SESSION['auth']))
+{
+  $_SESSION['message'] = "You are already logged in";
+  header("Location: index.php");
+  exit(0);
+}
 ?>
 
 <!DOCTYPE html>
@@ -9,44 +16,61 @@ require_once('config.php');
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration</title>
-  <link rel="stylesheet" type="text/css" href="registration.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="../php-blog/assets/css/bootstrap5.min.css">
 </head>
 
-<!-- <style>
-<?php // include ('style.css'); ?>
-</style> -->
-
 <body>
+<div class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-5">
 
-<div>
-  <form action="registration.php" method="POST">
-    <div class="container">
+        <?php include('message.php'); ?>
 
-      <div class="row">
-        <div class="col-sm-3">
-          <h1>Registration</h1>
-          <p>Please fill up the form to register.</p>
-          <hr class="mb-3">
-          <label for="fullname"><b>Full Name *</b></label>
-          <input class="form-control" id="fullname" type="text" name="fullname" required>
-            
-          <label for="email"><b>Email *</b></label>
-          <input class="form-control" id="email" type="email" name="email" required>
+        <div class="card">
+          <div class="card-header">
+            <h4>Register</h4>
+          </div>
+          <div class="card-body">
 
-           <label for="password"><b>Password *</b></label>
-           <input class="form-control" id="password" type="password" name="password" required>
-           <hr class="mb-3">
-           <input class="btn btn-primary" type="submit" id="register" name="create" value="Register">
+            <form action="../php-blog/registercode.php" method="POST">
+
+              <div class="form-group mb-3">
+                <label>First name</label>
+                <input required type="text" name="fname" placeholder="Enter First Name" class="form-control">
+              </div>
+
+              <div class="form-group mb-3">
+                <label>Last Name</label>
+                <input required type="text" name="lname" placeholder="Enter Last Name" class="form-control">
+              </div>
+
+              <div class="form-group mb-3">
+                <label>Email</label>
+                <input required type="email" name="email" placeholder="Enter Email Adress" class="form-control">
+              </div>
+              
+              <div class="form-group mb-3">
+                <label>Password</label>
+                <input required type="password" name="password" placeholder="Enter Password" class="form-control">
+              </div>
+
+              <div class="form-group mb-3">
+                <label>Confirm Password</label>
+                <input required type="password" name="cpassword" placeholder="Enter confirm Password" class="form-control">
+              </div>
+              
+              <div class="form-group mb-3">
+                <button type="submit" name="register_btn" class="btn btn-primary">Register Now</button>
+              </div>
+              </form>
+
+          </div>
         </div>
       </div>
     </div>
-  </form>
+  </div>
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="registration.js"></script>
 
 </body>
 </html>
