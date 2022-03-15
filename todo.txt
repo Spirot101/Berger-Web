@@ -9,3 +9,7 @@
 12. blog - make super admin - https://www.youtube.com/watch?v=mAutSTx3s4M&list=PLRheCL1cXHrvKqYXmyArH55g5VkPhpzzP&index=28
 
 13. netlify - vf funkar inte index.php fil?
+
+14. Blog - fortsätta göra bloggen bättre - https://www.youtube.com/watch?v=rRSNlr_Oo6E&list=PLRheCL1cXHrvKqYXmyArH55g5VkPhpzzP&index=30&ab_channel=FundaOfWebIT
+
+15. Search bar - https://www.youtube.com/watch?v=nMzz1ZIET1A&list=PLRheCL1cXHrvKqYXmyArH55g5VkPhpzzP&index=34&ab_channel=FundaOfWebIT
