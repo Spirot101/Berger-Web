@@ -1,5 +1,8 @@
-    <!-- Top Header -->
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+		<!-- Top Header -->    
     <div class="header">
 			<ul>			
 				<li><a class="head-list" href="../login/login.php"><i class="material-icons">login</i> Login</a></li>

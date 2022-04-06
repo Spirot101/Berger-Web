@@ -8,8 +8,8 @@
         <div class="underline"></div>
         
         <div><a href="../index.html" class="text-white">Home</a></div>
-        <div><a href="" class="text-white">About us</a></div>
-        <div><a href="" class="text-white">Contact Us</a></div>
+        <div><a href="#" class="text-white">About us</a></div>
+        <div><a href="../contact/contact.php" class="text-white">Contact Us</a></div>
       </div>
       
       <div class="col-md-8"> <br>

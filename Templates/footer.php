@@ -81,3 +81,6 @@ if (isset($_SESSION['auth']))
   
     </div>	
   </footer>
+
+  </body>
+</html>
