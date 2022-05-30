@@ -1,7 +1,7 @@
 <?php
 include('includes/config.php');
 
-$page_title = "Home Page";
+$page_title = "Blog";
 $meta_description = "Home page description blogging website";
 $meta_keywords = "php, html";
 

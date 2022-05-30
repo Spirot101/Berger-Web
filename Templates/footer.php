@@ -52,7 +52,7 @@ if (isset($_SESSION['auth']))
       </div>
   
       <div class="right box">
-      <?php include('message.php'); ?>
+      <?php include('../php-blog/message.php'); ?>
         <h2><i class="material-icons">account_circle</i> Login to your account</h2>
         <div class="content">
           <form action="../php-blog/logincode.php" method="POST">

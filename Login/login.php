@@ -32,15 +32,15 @@ if (isset($_SESSION['auth']))
 
 			<li><a href="#">Forum</a></li>
 
-      <li><a href="../gallery/gallery.php">Gallery</a></li>
+      <li><a href="../gallery/index.php">Gallery</a></li>
 
-			<li><a href="../contact/contact.php">Contact</a></li>
+			<li><a href="../contact/index.php">Contact</a></li>
 		</ul>
 	</div>
 
   <div class="login-box">
 
-  <?php include('message.php'); ?>
+  <?php include('../php-blog/message.php'); ?>
   
     <h1>Login</h1>
 
