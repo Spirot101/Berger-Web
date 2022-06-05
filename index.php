@@ -62,7 +62,7 @@ include('Templates/header.php'); ?>
 		</div>
 	</main>
 
-<?php include('Templates/footer.php'); ?>
+<?php include('templates/footer.php'); ?>
 
 </div>
 

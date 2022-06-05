@@ -23,18 +23,6 @@
 
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link text-white active" aria-current="page" href="../index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white active" aria-current="page" href="#">Forum</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white active" aria-current="page" href="../gallery/index.php">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white active" aria-current="page" href="../contact/index.php">Contact</a>
-        </li>
-        <li class="nav-item">
           <!-- ändra färg här -->
           <a class="nav-link text-white active" aria-current="page" href="index.php">Blog</a>
         </li>

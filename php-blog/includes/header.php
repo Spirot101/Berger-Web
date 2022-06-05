@@ -14,6 +14,24 @@
 
   <link rel="stylesheet" href="assets/css/bootstrap5.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="https://use.fontawesome.com/26560a88c7.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
+
+<header>
+    <div class="main-site">
+      <ul>
+        <h1 class="berger">Berger-Web</h1>
+        <li><a class="main-list" href="../index.php">Home</a></li>
+  
+        <li><a class="main-list" href="#">Forum</a></li>
+
+				<li><a class="main-list" href="../gallery/index.php">Gallery</a></li>
+
+        <li><a class="main-list" href="../contact/index.php">Contact</a></li>
+      </ul>
+    </div>
+  </header>
 <body>

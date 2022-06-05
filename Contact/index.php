@@ -13,6 +13,7 @@ include('../Templates/header.php'); ?>
 
     <div class="main-site">
       <ul>
+				<h1 class="berger">Berger-Web</h1>
         <li><a class="main-list" href="../index.php">Home</a></li>
 
 				<li><a class="main-list" href="../php-blog/index.php">Blog</a></li>
